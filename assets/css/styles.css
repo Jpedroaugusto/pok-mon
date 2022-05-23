@@ -69,11 +69,6 @@ nav, nav a{
     transition: 1s;
 }
 
-.header-op1:hover #header-op1-title{
-    background-color: rgb(177, 9, 9);
-    transition: 1s;
-}
-
 #header-op1-color {
     border-bottom-left-radius: 12px;
     background-color: gray;
@@ -82,6 +77,23 @@ nav, nav a{
 #header-op2-color{
     background-color: rgb(3, 219, 3);
 }
+
+#header-op2{
+    background-image: url('../imagens/icopokedex/icons8-pokedex-100.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    transition: 1.4s;
+}
+#header-op2:hover {
+    background-color: rgb(219, 3, 3);
+    background-image: url('../imagens/icopokedex/icons8-pokedex-100.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+}
+
 
 #header-op3-color{
     background-color: firebrick;
