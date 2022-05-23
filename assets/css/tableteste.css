@@ -1,0 +1,74 @@
+.icones-img{
+    height: 50px;
+    width: 50px;
+}
+
+.table-style-menu th{
+    padding:1rem 1rem;
+} 
+.table-style-menu {
+    font-size: 30px;
+    box-shadow: 0 3px 10px black;
+    background-color: orange;
+}
+
+.table-style{
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    border-collapse: collapse;
+    border-radius: 30px;
+}
+
+.table-style tr{
+    justify-content: center;
+    align-items: center;
+}
+
+.table-style tr#plant:hover{
+    background-color: green;
+    transition: 0.7s;
+}
+
+.table-style tr#water:hover{
+    background-color: rgb(0, 99, 165);
+    transition: 0.7s;
+}
+
+.table-style tr#fire:hover{
+    background-color: rgb(207, 152, 0);
+    transition: 0.7s;
+}
+
+.table-style tr#rock:hover{
+    background-color: rgb(179, 168, 140);
+    background-clip: inherit;
+    transition: 0.4s;
+}
+
+.table-style tr#steel:hover{
+    background-color: rgb(163, 163, 163);
+    transition: 0.7s;
+}
+
+.table-style tr#eletric:hover{
+    background-color: rgb(240, 185, 34);
+    transition: 0.7s;
+}
+
+.table-style tr#fire:hover{
+    background-color: rgb(207, 152, 0);
+    transition: 0.7s;
+}
+
+.table-style tr#psychic:hover{
+    background-color: rgb(231, 34, 99);
+    transition: 0.7s;
+}
+
+.position-table td{
+    padding: 1rem;
+}

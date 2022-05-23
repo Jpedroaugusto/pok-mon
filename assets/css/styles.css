@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    justify-content: center;
+}
+
+
+nav, nav a{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: black;
+    font-family:fantasy;
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+#title{
+    color: black;
+    font-family:fantasy;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+}
+
+
+#header-complete{
+    background-color: rgb(192, 192, 192);
+    width: 110vh;
+    height: 13vh;
+    display: grid;
+    justify-content: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+#header-icos{
+    display: flex;
+    width: 110vh;
+    height: 10px;
+}
+
+#subheader-color{
+    display: flex;
+    width: 110vh;
+    height: 10px;
+}
+#header-op1{
+    background-image: url('../imagens/icopokedex/icopodex2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    transition: 1.4s;
+}
+#header-op1:hover {
+    background-color: gray;
+    background-image: url('../imagens/icopokedex/icopodex1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+}
+
+.header-op1:hover #header-op1-title{
+    background-color: rgb(177, 9, 9);
+    transition: 1s;
+}
+
+#header-op1-color {
+    border-bottom-left-radius: 12px;
+    background-color: gray;
+}
+
+#header-op2-color{
+    background-color: rgb(3, 219, 3);
+}
+
+#header-op3-color{
+    background-color: firebrick;
+}
+
+#header-op4-color{
+    background-color: pink;
+    border-bottom-right-radius: 12px;
+}
+
+
+.op-size{
+    width: 27.5vh;
+}
