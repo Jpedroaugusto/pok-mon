@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+}
+
+header{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 5px 10px;
+
+    position: static;
+}
+#header-color{
+    display: grid;
+    justify-content: center;
+    width: 106rem;
+    height: 110px;
+    background-color: grey;
+
+    box-shadow: 0 5px 10px;
+}
+nav{
+    position: static;
+    width: 100%;
+    display: block;
+}
+
+#list-opcions ul{
+    width: 400px;
+    height: 100%;
+
+    justify-content: center;
+    display: flex; 
+}
+
+.list-opcions-li{
+    width: 100%;
+    height: 100px;
+    list-style: none;
+    transition: 0.4s;  
+}
+
+.list-opcions-a{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+#list-colors{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+}
+
+#list-colors li{
+    height: 12px;
+    width: 150px;
+    list-style: none;
+}
+
+#op-grey{
+    box-shadow: 0 5px 10px rgb(71, 134, 250);
+    background-color: rgb(71, 134, 250);
+
+    border-bottom-left-radius:20px;
+
+}
+
+#op-green{
+    box-shadow: 0 5px 10px rgb(255, 38, 92);
+    background-color: rgb(255, 38, 92);
+}
+
+#op-yellow{
+    box-shadow: 0 5px 10px yellow;
+    background-color: rgb(229, 255, 0);
+
+    border-bottom-right-radius:20px
+}
+
+li#op1{
+    background-image: url("../imagens/svg/pokemon/svgBulbasauro.svg");
+    background-size: 50px 50px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    transition: 0.8s;
+}
+
+li#op1:hover{
+    box-shadow: 0 5px 10px rgb(71, 134, 250);
+    background-color: rgb(71, 134, 250);
+
+    background-image: url("../imagens/svg/pokemon/svgBulbasauro.svg");
+    background-size: 50px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
+
+li#op2{
+    background-image: url("../imagens/svg/pokemon/svgSquirtle.svg");
+    background-size: 50px 50px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    transition: 0.8s;
+}
+li#op2:hover{
+    box-shadow: 0 5px 10px rgb(255, 38, 92);
+    background-color: rgb(255, 38, 92);
+
+    background-image: url("../imagens/svg/pokemon/svgSquirtle.svg");
+    background-size: 50px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
+
+li#op3{
+    background-image: url("../imagens/svg/pokemon/svgChamander.svg");
+    background-size: 50px 50px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    transition: 0.8s;
+}
+
+li#op3:hover{
+    box-shadow: 0 5px 10px yellow;
+    background-color: rgb(229, 255, 0);
+
+    background-image: url("../imagens/svg/pokemon/svgChamander.svg");
+    background-size: 50px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.8s;
+}
