@@ -75,7 +75,7 @@ nav, nav a{
 }
 
 #header-op2-color{
-    background-color: rgb(3, 219, 3);
+    background-color: rgb(219, 3, 3);
 }
 
 #header-op2{
@@ -96,8 +96,26 @@ nav, nav a{
 
 
 #header-op3-color{
-    background-color: firebrick;
+    background-color: rgb(238, 255, 0);
 }
+
+#header-op3{
+    background-image: url('../imagens/icopokedex/wiki.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    transition: 1.4s;
+}
+
+#header-op3:hover {
+    background-color: rgb(238, 255, 0);
+    background-image: url('../imagens/icopokedex/wiki.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    transition: 1s;
+}
+
 
 #header-op4-color{
     background-color: pink;
