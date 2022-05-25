@@ -10,15 +10,16 @@ header{
     justify-content: center;
     background-image: linear-gradient(to right, #2a0044,#8E02E3);
     box-shadow: 0 7px 10px #000000;
-    gap: 300px;
 }
 
 nav{
 }
 
 #slider{
-    width: 585px;
-    height: 10rem;
+    justify-content: left;
+    display: flex;
+    width: 900px;
+    height: 7.5rem;
 
     position: relative;
 }
@@ -27,16 +28,16 @@ nav{
     position: absolute;
     width: 100%;
     height: 100%;
-    border-bottom-right-radius: 30px;
 
     object-fit: cover;
-
     opacity: 0;
-    transition: opacity 800ms;
 }
 
 #slider img.selected{
+    margin-right: 600px;
     opacity: 1;
+    transition: 1s;
+
 }
 
 #header-menu{
