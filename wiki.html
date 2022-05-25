@@ -2,50 +2,55 @@
 <html lang="pt-BR">
     <head>
 
-        <title>Wikil</title>
+        <title>Wiki</title>
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="assets/js/script.js"></script>
+        <script src="script.js" defer></script>
 
         <link rel="shortcut icon" href="assets/icos/icoCharmander.ico">
-        <link href="assets/css/header.css" rel="stylesheet" />
         
+        <link href="assets/css/header.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+
     </head>
-<body>
-
-
-    <div id="header-color">
+    <body>
+        <div class="black">
+            f
+        </div>
         <header>
-            <nav id="list-opcions">
-                <ul>
-                    <li class="list-opcions-li" id="op1">
-                        <a class="list-opcions-a" href="index.html">Principal</a>
+            <div id="slider">
+                <img class="selected" src="assets/imagens/banners/banner1.jpg">
+                <img src="assets/imagens/banners/banner2.jpg">
+                <img src="assets/imagens/banners/banner3.jpg">
+            </div>
+            <script src="script.js"></script>
+            <nav>
+                <ul id="header-menu">
+                    <li>
+                        <a id="op-bulbassauro" href="index.html">Principal</a>
                     </li>
-                    <li class="list-opcions-li" id="op2">
-                        <a class="list-opcions-a" href="pokedex.html">Pokédex</a>
+                    <li>
+                        <a id="op-squirtle" href="pokedex.html">Pokédex</a>
                     </li>
-                    <li class="list-opcions-li" id="op3">
-                        <a class="list-opcions-a" href="wiki.html">Wiki</a>
+                    <li>
+                        <a class="op-selected3" id="op-charmander" href="wiki.html">Wiki</a>
                     </li>
-                </ul>
-                <ul id="list-colors">
-                    <li id="op-grey">
-                        <a href="index.html"></a>
-                    </li>
-                    <li id="op-green">
-                        <a href="pokedex.html"></a>
-                    </li>
-                    <li id="op-yellow">
-                        <a href="wiki.html"></a>
+                    <li>
+                        <a id="op-pikachu" href="pixelmon.html">Pixelmon</a>
                     </li>
                 </ul>
             </nav>
         </header>
-    </div>
 
-
-</body>
+        <main>
+            <section id="welcome">
+                <div><h1>Wiki</h1></div>
+                <p>Esse site foi</p>
+            </section>
+                
+        </main>
+    </body>
 </html>

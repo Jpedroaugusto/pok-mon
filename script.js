@@ -20,7 +20,6 @@ function nextImage() {
 
 function start() {
     setInterval(() => {
-        // troca de image
         nextImage()
     }, time)
 }

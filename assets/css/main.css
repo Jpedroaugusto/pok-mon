@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    background-image: url('../imagens/purple-pokemon-backgrounds-1.jpg');
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: 100%;
+}
+
+main{
+    padding: 4rem 8rem;
+    justify-content: left;
+    display: grid;
+}
+
+@font-face {
+    font-family: 'title';
+    src: url('fontes/MASQUE__.ttf');
+}
+#welcome{
+    padding: 3rem;
+    width: 50rem;
+    box-shadow: 0 5px 20px #ba57f862;
+    background-color: #ba57f863;
+    border-radius: 20px;
+
+    transition: 2s;
+}
+
+#welcome:hover{
+    box-shadow: 0 5px 30px #9b48ce;
+    background-color: #9b48ce;
+    
+    transition: 0.6s;
+}
+#welcome h1{
+    text-align: left;
+    color: white;
+    font-family: 'title';
+    font-size: 50px;
+}
+#welcome p{
+    padding: 10px
+}
+
+.black{
+    background-color: black;
+}
