@@ -9,27 +9,7 @@ main{
     padding: 3rem;
     gap: 100px;
 }
-#pokedex{
-    padding: 3rem;
-    width: 70rem;
-    height: 5000px;
-    box-shadow: 0 5px 20px #ba57f862;
-    background-color: #ba57f863;
-    border-radius: 20px;
 
-    transition: 2s;
-}
-#pokedex:hover{
-    width: 70rem;
-    box-shadow: 0 5px 20px #ba57f862;
-    background-color: #ba57f863;
-    border-radius: 20px;
-    
-    box-shadow: 0 5px 30px #9b48ce;
-    background-color: #9b48ce;
-
-    transition: 2s;
-}
 
 main h1:hover{
     opacity: 1;
@@ -63,7 +43,6 @@ main h2{
 }
 
 #list-generation{
-    width: 1400px;
     display: grid;
     justify-content: center;
 }
@@ -71,7 +50,7 @@ main h2{
 #list-generation ul{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    background-color: rgb(250, 78, 78);
+    background-image: linear-gradient(to right, #462A7A, #3d2863);
     display: flex;
     list-style: none;
     box-shadow: 0 30px 10px black;
@@ -115,6 +94,9 @@ main h2{
 }
 
 
+
+
+
 .generation-title{
     color: wheat;
     font-size: 30px;
@@ -125,8 +107,13 @@ main h2{
 
 
 
+
 .division-generation{
-    padding: 5rem 2rem;
+    padding: 3rem 3rem;
+
+    display: grid;
+    justify-content: center;
+
     border-radius: 60px;
     background-color: #9b48ce;
 }
@@ -142,8 +129,8 @@ main h2{
 }
 
 .colum li{
-    width: 192px;
-    height: 192px;
+    width: 170px;
+    height: 170px;
 
     transition: 1s;
 }
