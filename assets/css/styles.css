@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ---------------- HEADER ---------------- */
+
+header{
+    border-top: 10px solid #000000;
+    display: flex;
+    height: 120px;
+    justify-content: left;
+    background-color: #2a0044;
+    box-shadow: 0 6px 40px black;
+    gap: 5.8vw;
+}
+
+/* --- LOGO DO CABEÇALHO --- */
+
+#logo-header-gengarpedia{
+    padding: 6rem 1rem;
+
+    background-color: #2a0044;
+    box-shadow: 0 6px 40px black;
+    
+    border-bottom-right-radius: 50px;
+}
+#logo-header-gengarpedia img{
+    height: 90px;
+    width: 380px;
+    margin-top:-50px;
+
+}
+
+/* --- TAMANHO E CORES = MENU DE NAVEGAÇÃO --- */
+
+#list-header-menu{
+    display: flex;
+    list-style: none;
+
+    background-image: linear-gradient(to right, #462A7A, #3d2863);
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 6px 40px black;
+}
+#list-header-menu li{
+    width: 130px;
+    height: 130px;
+}
+#list-header-menu a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* --- DESING = MENU DE NAVEGAÇÃO --- */
+
+#list-header-menu-option1 a{
+    border-bottom-left-radius: 20px;
+    border-bottom: 10px solid rgb(69, 253, 124, 0.856);
+
+    background-image: url("../imagens/svg/pokemon/svgBulbasauro.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+
+    transition: 0.8s;
+}
+#list-header-menu-option2 a{
+    border-bottom: 10px solid rgb(71, 249, 255, 0.836);
+
+    background-image: url("../imagens/svg/pokemon/svgSquirtle.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+
+    transition: 0.8s;
+}
+#list-header-menu-option3 a{
+    border-bottom: 10px solid rgb(255, 132, 0);
+
+    background-image: url("../imagens/svg/pokemon/svgCharmander.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+
+    transition: 0.8s;
+}
+#list-header-menu-option4 a{
+    border-bottom: 10px solid rgb(238, 255, 0);
+    border-bottom-right-radius: 20px;
+
+    background-image: url("../imagens/svg/pokemon/svgPikachu.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+
+    transition: 0.8s;
+}
+
+/* --- DESING DOS ITENS CLICAVEIS = MENU DE NAVEGAÇÃO --- */
+
+#list-header-menu #list-header-menu-option1:hover a{
+    background-color: rgb(69, 253, 124, 0.856);
+    box-shadow: 0 2px 20px rgb(69, 253, 124, 0.856);
+    
+    background-image: url("../imagens/svg/pokemon/svgBulbasauro.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+
+}
+#list-header-menu #list-header-menu-option2:hover a{
+    background-color: rgb(71, 249, 255, 0.836);
+    box-shadow: 0 2px 20px rgb(71, 249, 255, 0.836);
+
+    background-image: url("../imagens/svg/pokemon/svgSquirtle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+}
+#list-header-menu #list-header-menu-option3:hover a{
+    background-color: rgb(255, 132, 0);
+    box-shadow: 0 2px 20px rgb(255, 132, 0);
+
+    background-image: url("../imagens/svg/pokemon/svgCharmander.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+}
+#list-header-menu #list-header-menu-option4:hover a{
+    background-color: rgb(238, 255, 0);
+    box-shadow: 0 2px 20px rgb(238, 255, 0);
+
+    background-image: url("../imagens/svg/pokemon/svgPikachu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+}
+#list-header-menu li:hover a{
+    color: black;
+}
+
+/* --- DESING ITEM SELECIONADO = MENU DE NAVEGAÇÃO  --- */
+
+#list-header-menu #list-header-menu-option1.selected-option-list-header-menu a{
+    background-color: rgb(69, 253, 124, 0.856);
+    box-shadow: 0 2px 20px rgb(69, 253, 124, 0.856);
+    
+    background-image: url("../imagens/svg/pokemon/svgBulbasauro.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+
+}
+#list-header-menu #list-header-menu-option2.selected-option-list-header-menu a{
+    background-color: rgb(71, 249, 255, 0.836);
+    box-shadow: 0 2px 20px rgb(71, 249, 255, 0.836);
+
+    background-image: url("../imagens/svg/pokemon/svgSquirtle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+}
+#list-header-menu #list-header-menu-option3.selected-option-list-header-menu a{
+    background-color: rgb(255, 132, 0);
+    box-shadow: 0 2px 20px rgb(255, 132, 0);
+
+    background-image: url("../imagens/svg/pokemon/svgCharmander.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+}
+#list-header-menu #list-header-menu-option4.selected-option-list-header-menu a{ 
+    background-color: rgb(238, 255, 0);
+    box-shadow: 0 2px 20px rgb(238, 255, 0);
+
+    background-image: url("../imagens/svg/pokemon/svgPikachu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+
+    transition: 0.4s;
+}
+#list-header-menu li.selected-option-list-header-menu a{
+    color: black;
+}
+
+/* --- SLIDER --- */
+
+#slider-header{
+    position: relative;
+}
+#slider-header div{
+    position: absolute;
+
+    opacity: 0;
+    
+    transition: opacity 800ms;
+}
+#slider-header div.selected{
+    opacity: 1;
+
+    transition: 1s;
+}
+
+/* --- IMAGENS = SLIDER --- */
+
+#gastly-svg{
+    padding: 8rem;
+    background-color: #2a0044;
+    box-shadow: 0 6px 40px black;
+    
+    background-image: url('../imagens/svg/pokemon/svgGastly.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+
+    border-bottom-left-radius: 50px;
+}
+#haunter-svg{
+    padding: 8rem;
+    background-color: #2a0044;
+    box-shadow: 0 6px 40px black;
+    
+    background-image: url('../imagens/svg/pokemon/svgHaunter.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+
+    border-bottom-left-radius: 50px;
+}
+#gengar-svg{
+    padding: 8rem;
+    background-color: #2a0044;
+    box-shadow: 0 6px 40px black;
+    
+    background-image: url('../imagens/svg/pokemon/svgGengar.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+
+    border-bottom-left-radius: 50px;
+}
+
+/* ---------------- HEADER ---------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- MAIN ---------------- */
+
+@font-face {
+    font-family: 'pokemon';
+    src: url('fontes/Pokemon\ Hollow.ttf');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url('../imagens/backgrounds/background-body.jpg')
+}
+
+main{
+    margin-top: 7rem;
+    padding: 4rem ;
+}
+
+
+
+
+
+/* ----- MAIN = PAGINA INICIAL ----- */
+
+
+
+/* ----- MAIN = PAGINA INICIAL ----- */
+
+
+
+/* ----- MAIN = POKÉDEX ----- */
+
+#header-main-menu-generations{
+    display: grid;
+    justify-content: center;
+    padding: 10px 10px;
+
+    background-image: linear-gradient(to right, #5c2db4, #553395);
+
+    gap: 4rem;
+    border-radius: 200px; 
+}
+
+#options-generatios{
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    
+
+    border-radius: 40px; 
+}
+
+
+#header-main-menu-generations h1{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+
+    font-size: 50px;
+    color: wheat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    box-shadow: 0 10px 20px #000000;
+    background-image: linear-gradient(to right, #20103d, #1a004e);
+}
+
+#list-main-menu-generations{
+    width: 55rem;
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    background-image: linear-gradient(to right, #462A7A, #3d2863);
+
+    box-shadow: 0 10px 20px #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#list-main-menu-generations li{
+    width: 100%;
+    height: 120px;
+
+    transition: 0.2s;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#list-main-menu-generations a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 34px;
+}
+#list-main-menu-generations li:hover{
+    background-color: rgb(124, 78, 250);
+    display: flex;
+    list-style: none;
+    box-shadow: 0 10px 30px rgb(124, 78, 250);
+
+    transition: 0.1s;
+}
+
+#main-generations{
+    gap:40rem;
+}
+
+
+.background{
+    padding: 3rem;
+
+    border-radius:80px; 
+    box-shadow: 0 10px 20px #000000;
+}
+
+.style-list-generation{
+
+    width: 100%;
+
+    background-color: rgba(135, 55, 146, 0.836);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.style-list-generation li{
+    width: 170px;
+    height: 170px;
+
+    transition: 1s;
+}
+
+.style-list-generation li:hover{
+    background-color: rgb(238, 91, 177);
+    box-shadow: 0 10px 30px rgb(238, 91, 177);
+    
+    transition: 0.1s;
+}
+
+.style-list-generation a{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    
+    background-size: 140px 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* ----- MAIN = POKÉDEX ----- */
+
+
+
+/* ----- MAIN = WIKI ----- */
+
+
+
+/* ----- MAIN = WIKI ----- */
+
+
+
+/* ----- MAIN = PIXELMON ----- */
+
+
+
+/* ----- MAIN = PIXELMON ----- */
+
+/* ---------------- MAIN ---------------- */
+
+

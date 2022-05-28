@@ -1,7 +1,7 @@
-let time = 7000,
+let time = 2000,
     currentImageIndex = 0,
     images = document
-                .querySelectorAll("#slider div")
+                .querySelectorAll("#slider-header div")
     max = images.length;
 
 function nextImage() {

@@ -8,509 +8,528 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="script.js" defer></script>
-
-        <link rel="shortcut icon" href="assets/icos/icoSquirtle.ico">
+        <link rel="shortcut icon" href="assets/icos/icoSquirtle.ico"> <!-- FAVICON -->
         
-        <link href="assets/css/header.css" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-
-        <link href="assets/css/pokedex.css" rel="stylesheet">
-        <link href="assets/css/pokemons.css" rel="stylesheet">
-
+        <link href="assets/css/styles.css" rel="stylesheet"> <!-- importação do CSS -->
 
     </head>
     <body>
-        <header>
-            <div class="logo-gengarpedia">
-                <div>
-                    <img src="assets/imagens/banners/logo-GengarPédia.png" height="90" width="400">
-                </div>
+
+        <header> <!-- CABEÇALHO -->
+            <div id="logo-header-gengarpedia">
+                <img src="assets/imagens/banners/logo-GengarPédia.png">
             </div>
             <nav>
-                <ul id="header-menu">
-                    <li>
-                        <a id="op-1" href="index.html">Principal</a>
-                    </li>
-                    <li>
-                        <a id="op-2" href="pokedex.html">Pokédex</a>
-                    </li>
-                    <li>
-                        <a id="op-3" href="wiki.html">Wiki</a>
-                    </li>
-                    <li>
-                        <a id="op-4" href="pixelmon.html">Pixelmon</a>
-                    </li>
+                <ul id="list-header-menu">
+                    <li id="list-header-menu-option1"><a href="index.html">Principal</a></li>
+                    <li class="selected-option-list-header-menu" id="list-header-menu-option2"><a href="pokedex.html">Pokédex</a></li>
+                    <li id="list-header-menu-option3"><a href="wiki.html">Wiki</a></li>
+                    <li id="list-header-menu-option4"><a href="pixelmon.html">Pixelmon</a></li>
                 </ul>
             </nav>
-            <div id="icon-logo">
-                <div id="slider">
+                <div id="slider-header">
                     <div class="selected" id="gastly-svg"></div>
                     <div id="haunter-svg"></div>
                     <div id="gengar-svg"></div>
                 </div>
-            </div>
         </header>
-
-        
-        <main>
-            <div id="pokedex-title">
-                <div>
-                    <h2>GERAÇÕES</h2>
-                </div>
-                <div id="list-generation">
-                    <ul>
-                        <li class="left">
-                            <a href="#first-generation">1°</a>
-                        </li>
-                        <li>
-                            <a href="#second-generation">2°</a>
-                        </li>
-                        <li>
-                            <a href="#third-generation">3°</a>
-                        </li>
-                        <li>
-                            <a href="#fourth-generation">4°</a>
-                        </li>
-                        <li>
-                            <a href="#fifth-generation">5°</a>
-                        </li>
-                        <li>
-                            <a href="#sixth-generation">6°</a>
-                        </li>
-                        <li>
-                            <a href="#seventh-generation">7°</a>
-                        </li>
-                        <li class="right">
-                            <a href="#eighth-generation">8°</a>
-                        </li>
+       
+        <main> <!-- MAIN GERAÇÕES -->
+            <section id="header-main-menu-generations"> <!-- MENU DE GERAÇÕES -->
+                <section id="options-generatios">    <!-- OPÇÕES DE GERAÇÕES -->
+                    <h1>-----=(GERAÇÕES)=-----</h1>
+                        <ul id="list-main-menu-generations">
+                        <li><a href="#first-generation">1°</a></li>
+                        <li><a href="#second-generation">2°</a></li>
+                        <li><a href="#third-generation">3°</a></li>
+                        <li><a href="#fourth-generation">4°</a></li>
+                        <li><a href="#fifth-generation">5°</a></li>
+                        <li><a href="#sixth-generation">6°</a></li>
+                        <li><a href="#seventh-generation">7°</a></li>
+                        <li><a href="#eighth-generation">8°</a></li>
                     </ul>
-                </div>
-            </div>
-            <div id="first-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>1° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="second-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>2° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="third-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>3° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="fourth-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>4° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="fifth-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>5° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="sixth-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="seventh-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>7° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div id="eighth-generation">
-                <div class="division-generation">
-                    <div class="generation-title"
-                     ><h3>8° GERAÇÃO</h3>
-                </div>
-                    <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                     <ul class="colum">
-                        <li class="left">
-                            <a id="bulbasaur" href="#">N° 001 - BULBASAUR</a>
-                        </li>
-                        <li>
-                            <a href="#">veno</a>
-                        </li>
-                        <li>
-                            <a href="#">yvy</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li>
-                            <a href="#">BULBA</a>
-                        </li>
-                        <li class="Right">
-                            <a href="#">BULBA</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                </section>
+                <section id="main-generations"> <!-- GERAÇÕES -->
+                    <section class="background" id="first-generation"> <!-- 1° GERAÇÃO -->
+                            <h1>1° GERAÇÃO</h1>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                    </section>
+                    <section class="background" id="second-generation"> <!-- 2° GERAÇÃO -->
+                            <h1>2° GERAÇÃO</h1>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                    </section>
+                    <section class="background" id="third-generation"> <!-- 3° GERAÇÃO -->
+                            <h1>3° GERAÇÃO</h1>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                    </section>
+                    <section class="background" id="fourth-generation"> <!-- 4° GERAÇÃO -->
+                            <h1>4° GERAÇÃO</h1>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                    </section>
+                    <section class="background" id="fifth-generation"> <!-- 5° GERAÇÃO -->
+                            <h1>5° GERAÇÃO</h1>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                    </section>
+                    <section class="background" id="sixth-generation"> <!-- 6° GERAÇÃO -->
+                            <h1>6° GERAÇÃO</h1>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                    </section>
+                    <section class="background" id="seventh-generation"> <!-- 7° GERAÇÃO -->
+                            <h1>7° GERAÇÃO</h1>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                                <ul class="style-list-generation">
+                                    <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                    <li><a href="#">N° 002 - veno</a></li>
+                                    <li><a href="#">N° 003 - yvy</a></li>
+                                    <li><a href="#">N° 004 - BULBA</a></li>
+                                    <li><a href="#">N° 005 - BULBA</a></li>
+                                    <li><a href="#">N° 006 - BULBA</a></li>
+                                </ul>
+                    </section>
+                    <section class="background" id="eighth-generation"> <!-- 8° GERAÇÃO -->
+                        <h1>8° GERAÇÃO</h1>
+                            <ul class="style-list-generation">
+                                <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                <li><a href="#">N° 002 - veno</a></li>
+                                <li><a href="#">N° 003 - yvy</a></li>
+                                <li><a href="#">N° 004 - BULBA</a></li>
+                                <li><a href="#">N° 005 - BULBA</a></li>
+                                <li><a href="#">N° 006 - BULBA</a></li>
+                            </ul>
+                            <ul class="style-list-generation">
+                                <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                <li><a href="#">N° 002 - veno</a></li>
+                                <li><a href="#">N° 003 - yvy</a></li>
+                                <li><a href="#">N° 004 - BULBA</a></li>
+                                <li><a href="#">N° 005 - BULBA</a></li>
+                                <li><a href="#">N° 006 - BULBA</a></li>
+                            </ul>
+                            <ul class="style-list-generation">
+                                <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                <li><a href="#">N° 002 - veno</a></li>
+                                <li><a href="#">N° 003 - yvy</a></li>
+                                <li><a href="#">N° 004 - BULBA</a></li>
+                                <li><a href="#">N° 005 - BULBA</a></li>
+                                <li><a href="#">N° 006 - BULBA</a></li>
+                            </ul>
+                            <ul class="style-list-generation">
+                                <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                <li><a href="#">N° 002 - veno</a></li>
+                                <li><a href="#">N° 003 - yvy</a></li>
+                                <li><a href="#">N° 004 - BULBA</a></li>
+                                <li><a href="#">N° 005 - BULBA</a></li>
+                                <li><a href="#">N° 006 - BULBA</a></li>
+                            </ul>
+                            <ul class="style-list-generation">
+                                <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                <li><a href="#">N° 002 - veno</a></li>
+                                <li><a href="#">N° 003 - yvy</a></li>
+                                <li><a href="#">N° 004 - BULBA</a></li>
+                                <li><a href="#">N° 005 - BULBA</a></li>
+                                <li><a href="#">N° 006 - BULBA</a></li>
+                            </ul>
+                            <ul class="style-list-generation">
+                                <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                <li><a href="#">N° 002 - veno</a></li>
+                                <li><a href="#">N° 003 - yvy</a></li>
+                                <li><a href="#">N° 004 - BULBA</a></li>
+                                <li><a href="#">N° 005 - BULBA</a></li>
+                                <li><a href="#">N° 006 - BULBA</a></li>
+                            </ul>
+                            <ul class="style-list-generation">
+                                <li id="bulbasaur"><a href="#">N° 001 - BULBASAUR</a></li>
+                                <li><a href="#">N° 002 - veno</a></li>
+                                <li><a href="#">N° 003 - yvy</a></li>
+                                <li><a href="#">N° 004 - BULBA</a></li>
+                                <li><a href="#">N° 005 - BULBA</a></li>
+                                <li><a href="#">N° 006 - BULBA</a></li>
+                            </ul>
+                    </section>
+            </section>
         </main>
+
     </body>
+
+    <!-- Scritps -->
+   
+    <script src="script.js"></script>
+
+    <!-- Scritps -->
 </html>

@@ -8,53 +8,41 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script src="script.js" defer></script>
-
-        <link rel="shortcut icon" href="assets/icos/icoBulbasauro.ico">
+        <link rel="shortcut icon" href="assets/icos/icoSquirtle.ico"> <!-- FAVICON -->
         
-        <link href="assets/css/header.css" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-        <link href="assets/css/gengarpedia.css" rel="stylesheet">
-
+        <link href="assets/css/styles.css" rel="stylesheet"> <!-- importação do CSS -->
 
     </head>
     <body>
+
         <header>
-            <div class="logo-gengarpedia">
-                <div>
-                    <img src="assets/imagens/banners/logo-GengarPédia.png" height="90" width="400">
-                </div>
+            <div id="logo-header-gengarpedia">
+                <img src="assets/imagens/banners/logo-GengarPédia.png">
             </div>
             <nav>
-                <ul id="header-menu">
-                    <li>
-                        <a id="op-1" href="index.html">Principal</a>
-                    </li>
-                    <li>
-                        <a id="op-2" href="pokedex.html">Pokédex</a>
-                    </li>
-                    <li>
-                        <a id="op-3" href="wiki.html">Wiki</a>
-                    </li>
-                    <li>
-                        <a id="op-4" href="pixelmon.html">Pixelmon</a>
-                    </li>
+                <ul id="list-header-menu">
+                    <li class="selected-option-list-header-menu" id="list-header-menu-option1"><a href="index.html">Principal</a></li>
+                    <li id="list-header-menu-option2"><a href="pokedex.html">Pokédex</a></li>
+                    <li id="list-header-menu-option3"><a href="wiki.html">Wiki</a></li>
+                    <li id="list-header-menu-option4"><a href="pixelmon.html">Pixelmon</a></li>
                 </ul>
             </nav>
-            <div id="icon-logo">
-                <div id="slider">
+                <div id="slider-header">
                     <div class="selected" id="gastly-svg"></div>
                     <div id="haunter-svg"></div>
                     <div id="gengar-svg"></div>
                 </div>
-            </div>
         </header>
 
         
-        <main>
-            <section id="gengarpedia">
-                <div><h1>GENGARPÉDIA</h1></div>
+        <main id="main-pokedex">
+
+            <section>
+                <h1>GENGARPÉDIA</h1>
             </section>
-        </main>
+        
     </body>
+
+    <script src="script.js"></script>
+
 </html>
